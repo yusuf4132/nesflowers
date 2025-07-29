@@ -1,0 +1,166 @@
+[
+    {
+        "id": 1,
+        "title": "Vazolu Beyaz Zambak         ",
+        "price": 2000,
+        "images": [
+            "/bz-2.jpeg",
+            "/bz-5.jpeg",
+            "/bz-3.jpeg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Vazolu Pembe Papatya        ",
+        "price": 1500,
+        "images": [
+            "/pp-1.jpeg"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Pembe Karışık Zambak Buketi ",
+        "price": 1000,
+        "images": [
+            "/rf-1.jpeg"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Vazolu Beyaz Lale           ",
+        "price": 2000,
+        "images": [
+            "/yy2.jpeg",
+            "/yy3.jpeg",
+            "/yy1.jpeg"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Beyaz Lale Buketi           ",
+        "price": 500,
+        "images": [
+            "/yuc.jpeg"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Karışık Renkli Lale Buketi  ",
+        "price": 500,
+        "images": [
+            "/yp1.jpeg",
+            "/yp2.jpeg",
+            "/yp3.jpeg"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Vazolu    Pembe     Lale           ",
+        "price": 2000,
+        "images": [
+            "/yc1.jpeg",
+            "/yc2.jpeg",
+            "/yc3.jpeg"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Vazolu Kırmızı Lale         ",
+        "price": 2000,
+        "images": [
+            "/yb3.jpeg",
+            "/yb2.jpeg",
+            "/yb1.jpeg",
+            "/yb4.jpeg"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Lale     Buketi                 ",
+        "price": 750,
+        "images": [
+            "/ybes1.jpeg",
+            "/ybes2.jpeg"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Kırmızı Gül Buketi          ",
+        "price": 500,
+        "images": [
+            "/ya1.jpeg",
+            "/ya2.jpeg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Vazolu Karışık Zambak       ",
+        "price": 1500,
+        "images": [
+            "/rz-1.jpeg",
+            "/rz-2.jpeg",
+            "/rz-3.jpeg",
+            "/rz-4.jpeg"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Renkli Karışık Zambak Buketi",
+        "price": 1000,
+        "images": [
+            "/rzb-1.jpeg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Vazolu Pembe Lale Büyük     ",
+        "price": 2000,
+        "images": [
+            "/ttt-1.jpeg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Vazolu Pembe Lale Küçük     ",
+        "price": 500,
+        "images": [
+            "/ttt-1.jpeg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Karışık Renkli Zambak Buketi",
+        "price": 1000,
+        "images": [
+            "/vbr-1.jpeg",
+            "/vbr-2.jpeg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Vazolu Karışık Çiçek        ",
+        "price": 2000,
+        "images": [
+            "/vk-2.jpeg",
+            "/vk-4.jpeg"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Lila   Zambak   Buketi          ",
+        "price": 750,
+        "images": [
+            "/vlz-1.jpeg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Vazolu Karışık Çiçek-2      ",
+        "price": 2000,
+        "images": [
+            "/vr-2.jpeg",
+            "/vr-3.jpeg",
+            "/vr-1.jpeg"
+        ]
+    }
+]
