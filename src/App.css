@@ -10,13 +10,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
-
-@media (max-width: 768px) {
-    body {
-        background-position: center center;
-        /* Mobilde tam ortalayarak göster */
-    }
+    height: 100vh;
+    /* Body'nin ekran yüksekliği kadar olmasını sağlar */
+    overflow-y: scroll;
+    /* Dikey kaydırmayı etkinleştirir */
+    -webkit-overflow-scrolling: touch;
+    /* iOS'ta akıcı kaydırma sağlar */
+    position: relative;
 }
 
 
