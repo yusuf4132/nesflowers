@@ -13,14 +13,6 @@ body {
     -webkit-background-attachment: fixed;
 }
 
-@supports not (background-attachment: fixed) {
-    body {
-        background-position: center center;
-        background-size: cover;
-        background-attachment: scroll;
-    }
-}
-
 
 
 
