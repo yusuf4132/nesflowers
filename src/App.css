@@ -8,7 +8,6 @@ body {
     background-image: url('./assets/f2.jpeg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 100vh;
     /* Body'nin ekran yüksekliği kadar olmasını sağlar */
     overflow-y: scroll;
