@@ -16,8 +16,8 @@ const Home = () => {
   };
 
   // ID'lere göre filtreleme
-  const buketIds = [13, 15, 19, 20, 21, 22, 23, 24, 26, 3, 14, 18, 7];      // Buket ürün id'leri
-  const vazoluIds = [1, 25, 2, 12, 16, 17, 4, 6, 11];         // Vazolu ürün id'leri
+  const buketIds = [13, 15, 19, 20, 30, 21, 22, 27, 28, 23, 24, 26, 3, 14, 18, 7, 33, 34];      // Buket ürün id'leri
+  const vazoluIds = [1, 31, 32, 25, 2, 12, 16, 17, 4, 6, 11];         // Vazolu ürün id'leri
 
   const filteredCards = cards.filter((item) => {
     if (filter === 'buket') return buketIds.includes(item.id);

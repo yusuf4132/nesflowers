@@ -47,6 +47,47 @@
         ]
     },
     {
+        "id": 31,
+        "title": "Kırmızı Vazolu Lale        ",
+        "price": 2000,
+        "images": [
+            "/op5_1.jpeg",
+            "/op5_2.jpeg",
+            "/op5_3.jpeg"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Pembe Vazolu Şakayık       ",
+        "price": 2500,
+        "images": [
+            "/op6_1.jpeg",
+            "/op6_2.jpeg",
+            "/op6_3.jpeg",
+            "/op6_4.jpeg"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Minik Zambak         ",
+        "price": 350,
+        "images": [
+            "/op3_1.jpeg",
+            "/op3_2.jpeg"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Zambak-Papatya-Lale Buketi        ",
+        "price": 1250,
+        "images": [
+            "/op4_1.jpeg",
+            "/op4_2.jpeg",
+            "/op4_3.jpeg",
+            "/op4_4.jpeg"
+        ]
+    },
+    {
         "id": 21,
         "title": "Pembe Lale Buketi         ",
         "price": 1250,
@@ -63,6 +104,26 @@
         "images": [
             "/en4-1.jpeg",
             "/en4-2.jpeg"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Renkli Şakayık Buketi         ",
+        "price": 1250,
+        "images": [
+            "/op1_1.jpeg",
+            "/op1_2.jpeg",
+            "/op1_3.jpeg"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Kırmızı Şakayık Buketi         ",
+        "price": 1000,
+        "images": [
+            "/op2_1.jpeg",
+            "/op2_2.jpeg",
+            "/op2_3.jpeg"
         ]
     },
     {
@@ -201,6 +262,26 @@
         "images": [
             "/vbr-1.jpeg",
             "/vbr-2.jpeg"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Tekli Kırmızı Lale       ",
+        "price": 250,
+        "images": [
+            "/op7_1.jpeg",
+            "/op7-8.jpeg",
+            "/op7-8_2.jpeg"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Tekli Beyaz Lale       ",
+        "price": 250,
+        "images": [
+            "/op8_1.jpeg",
+            "/op7-8.jpeg",
+            "/op7-8_2.jpeg"
         ]
     }
 ]
