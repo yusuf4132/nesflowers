@@ -1,5 +1,34 @@
 [
     {
+        "id": 36,
+        "title": "Vazolu Ayçiçeği            ",
+        "price": 2000,
+        "images": [
+            "/ass2_1.jpeg",
+            "/ass2_2.jpeg",
+            "/ass2_3.jpeg"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Vazolu Pembe Gül            ",
+        "price": 2000,
+        "images": [
+            "/ass2.jpeg",
+            "/ass1.jpeg"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Vazolu Renkli Karışık Çiçek           ",
+        "price": 1500,
+        "images": [
+            "/ass3_1.jpeg",
+            "/ass3_2.jpeg",
+            "/ass3_3.jpeg"
+        ]
+    },
+    {
         "id": 13,
         "title": "Beyaz Lale Buketi           ",
         "price": 500,
