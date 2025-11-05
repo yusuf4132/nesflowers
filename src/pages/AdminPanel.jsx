@@ -61,6 +61,7 @@ const AdminPanel = () => {
     };
 
     const handleAddProduct = async () => {
+        handleCloseAdd();
         setLoadingf(true);
         let uploadedUrls = [];
 
@@ -95,6 +96,8 @@ const AdminPanel = () => {
         };
 
         const { error } = await supabase.from('products').insert([payload]);
+        fetchProducts();
+        setLoadingf(false);
         if (error) {
             console.error('Ekleme hatası:', error);
             setSnackbar({
@@ -108,10 +111,7 @@ const AdminPanel = () => {
                 message: 'Ürün başarıyla eklendi ✅',
                 severity: 'success',
             });
-            fetchProducts();
-            handleCloseAdd();
         }
-        setLoadingf(false);
     };
 
     // ✏️ Ürün düzenleme
