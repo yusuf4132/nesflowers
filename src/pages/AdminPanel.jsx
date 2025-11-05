@@ -347,7 +347,11 @@ const AdminPanel = () => {
                     onClose={handleCloseSnackbar}
                     severity={snackbar.severity}
                     variant="filled"
-                    sx={{ width: '60%' }}
+                    sx={{
+                        minWidth: 300,
+                        maxWidth: 450,
+                        width: 'fit-content',
+                    }}
                 >
                     {snackbar.message}
                 </Alert>
