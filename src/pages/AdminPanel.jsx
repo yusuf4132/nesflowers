@@ -61,6 +61,7 @@ const AdminPanel = () => {
     };
 
     const handleAddProduct = async () => {
+        setLoadingf(true);
         let uploadedUrls = [];
 
         if (selectedFiles.length > 0) {
@@ -110,7 +111,7 @@ const AdminPanel = () => {
             fetchProducts();
             handleCloseAdd();
         }
-
+        setLoadingf(false);
     };
 
     // ✏️ Ürün düzenleme
