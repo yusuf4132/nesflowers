@@ -10,7 +10,8 @@ import IconButton from '@mui/material/IconButton';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-const CardComponent = ({ title, description, price, images }) => {
+const CardComponent = ({ title, description, price, images, isAdmin = false, onEdit,
+    onDelete, moveProduct, moveProduct2 }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const handlePrev = () => {
@@ -26,7 +27,7 @@ const CardComponent = ({ title, description, price, images }) => {
     };
 
     return (
-        <Card sx={{ minWidth: 300, maxWidth: 360, m: 2, position: 'relative' }}>
+        <Card sx={{ minWidth: 300, maxWidth: 350, m: 2, position: 'relative' }}>
             {/* Resim ve ok butonları */}
             <Box sx={{ position: 'relative' }}>
                 <CardMedia
@@ -79,6 +80,29 @@ const CardComponent = ({ title, description, price, images }) => {
                 <Typography variant="subtitle1" sx={{ mt: 1 }}>
                     {price} ₺
                 </Typography>
+                {/* Admin butonları */}
+                {isAdmin && (
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 4 }}>
+                        <Button size="small" variant="outlined" onClick={onEdit}>
+                            Düzenle
+                        </Button>
+                        <Button
+                            size="small"
+                            color="error"
+                            variant="outlined"
+                            onClick={onDelete}
+                        >
+                            Sil
+                        </Button>
+                    </Box>
+                )}
+                {isAdmin && (
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 4 }}>
+                        <Button variant="outlined" onClick={moveProduct}>↑</Button>
+                        <Button variant="outlined" onClick={moveProduct2}>↓</Button>
+
+                    </Box>
+                )}
             </CardContent>
 
             <CardActions sx={{ backgroundColor: "#f5f4e8" }}>

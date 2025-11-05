@@ -37,41 +37,41 @@ function Communucation() {
   return (
     <>
       <div className='comm'>
-        <div class="container">
-          <div class="icon whatsapp" onClick={handleWhatsAppClick}>
-            <div class="tooltip">WhatsApp</div>
+        <div className="container">
+          <div className="icon whatsapp" onClick={handleWhatsAppClick}>
+            <div className="tooltip">WhatsApp</div>
             <span>
-              <i class="fa-brands fa-whatsapp"></i>
+              <i className="fa-brands fa-whatsapp"></i>
             </span>
           </div>
 
-          <div class="icon instagram" onClick={handleInstagramClick}>
-            <div class="tooltip">İnstagram</div>
+          <div className="icon instagram" onClick={handleInstagramClick}>
+            <div className="tooltip">İnstagram</div>
             <span>
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </span>
           </div>
 
-          <div class="icon mail" onClick={handleMailClick}>
-            <div class="tooltip">Mail</div>
+          <div className="icon mail" onClick={handleMailClick}>
+            <div className="tooltip">Mail</div>
             <span>
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
             </span>
           </div>
 
-          <div class="icon tiktok" onClick={handleTikTokClick}>
-            <div class="tooltip">Tiktok</div>
+          <div className="icon tiktok" onClick={handleTikTokClick}>
+            <div className="tooltip">Tiktok</div>
             <span>
-              <i class="fa-brands fa-tiktok"></i>
+              <i className="fa-brands fa-tiktok"></i>
             </span>
           </div>
 
         </div>
         <div className="info-container">
-          <p><i class="fa-brands fa-whatsapp"></i> WhatsApp:  0545 735 35 64</p>
-          <p><i class="fa-brands fa-instagram"></i> Instagram: @{instagramUsername}</p>
-          <p><i class="fa-brands fa-tiktok"></i> TikTok : @{tiktokUsername}</p>
-          <p><i class="fa-solid fa-envelope"></i> Mail : {email}</p>
+          <p><i className="fa-brands fa-whatsapp"></i> WhatsApp:  0545 735 35 64</p>
+          <p><i className="fa-brands fa-instagram"></i> Instagram: @{instagramUsername}</p>
+          <p><i className="fa-brands fa-tiktok"></i> TikTok : @{tiktokUsername}</p>
+          <p><i className="fa-solid fa-envelope"></i> Mail : {email}</p>
         </div>
       </div>
     </>

@@ -1,30 +1,45 @@
 import React, { useEffect, useState } from 'react';
 import CardComponent from '../components/Card'; // Yolunu ayarlayın
-import data from '../data/data.json'; // src altındaki data.json dosyası
-import { Box, Grid, FormControl, InputLabel, Select, MenuItem } from '@mui/material';
+import { supabase } from '../supabaseClient';
+import { Box, Grid, FormControl, InputLabel, Select, MenuItem, CircularProgress } from '@mui/material';
 
 const Home = () => {
   const [cards, setCards] = useState([]);
   const [filter, setFilter] = useState('hepsi');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setCards(data);
+    fetchProducts();
   }, []);
+
+  const fetchProducts = async () => {
+    setLoading(true);
+    const { data, error } = await supabase
+      .from('products')
+      .select('*')
+      .order('id', { ascending: true }); // id sırasına göre sırala (küçükten büyüğe)
+
+    if (error) console.error('Supabase Hatası:', error);
+    else setCards(data);
+    setLoading(false);
+  };
 
   const handleChange = (event) => {
     setFilter(event.target.value);
   };
-
-  // ID'lere göre filtreleme
-  const buketIds = [13, 15, 19, 20, 30, 21, 22, 27, 28, 23, 24, 26, 3, 14, 18, 7, 33, 34];      // Buket ürün id'leri
-  const vazoluIds = [1, 31, 32, 25, 2, 12, 16, 17, 4, 6, 11];         // Vazolu ürün id'leri
-
   const filteredCards = cards.filter((item) => {
-    if (filter === 'buket') return buketIds.includes(item.id);
-    if (filter === 'vazolu') return vazoluIds.includes(item.id);
-    return true; // hepsi
+    if (filter === 'buket') return item.category === 'buket';
+    if (filter === 'vazolu') return item.category === 'vazolu';
+    return true;
   });
 
+  if (loading) {
+    return (
+      <Box display="flex" justifyContent="center" alignItems="center" height="80vh">
+        <CircularProgress color='black' />
+      </Box>
+    );
+  }
   return (
 
     <Box sx={{ p: 3 }}>
@@ -51,6 +66,7 @@ const Home = () => {
         {filteredCards.map((item) => (
           <Grid item key={item.id} xs={12} sm={6} md={4}>
             <CardComponent
+              id={item.id}
               title={item.title}
               description={item.description}
               price={item.price}
