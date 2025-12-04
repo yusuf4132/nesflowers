@@ -17,7 +17,7 @@ const Home = () => {
     const { data, error } = await supabase
       .from('products')
       .select('*')
-      .order('id', { ascending: true }); // id sırasına göre sırala (küçükten büyüğe)
+      .order('order_index', { ascending: true }); // id sırasına göre sırala (küçükten büyüğe)
 
     if (error) console.error('Supabase Hatası:', error);
     else setCards(data);
