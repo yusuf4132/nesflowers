@@ -1,4 +1,4 @@
-# 🌸 nesflowers
+# 🌸 Nesflowers
 
 **nesflowers**, örgü (el işi) çiçeklerin sergilendiği modern ve kullanıcı dostu bir web sitesidir.  
 Proje, hem ziyaretçiler için hazırlanmış bir **ana vitrin (frontend)** hem de içeriklerin yönetildiği bir **admin paneli** içermektedir.
