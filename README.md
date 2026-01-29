@@ -30,7 +30,7 @@ Site içeriklerinin yönetildiği yönetici ekranı.
 - İçerik kontrolü  
 - Site yönetimi  
 
-![Admin Paneli Görseli](./screenshots/admin.png)
+![Admin Paneli Görseli](./src/assets/nesflowers2.png)
 
 ---
 
