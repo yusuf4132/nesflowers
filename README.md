@@ -1,12 +1,61 @@
-# React + Vite
+# 🌸 nesflowers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**nesflowers**, örgü (el işi) çiçeklerin sergilendiği modern ve kullanıcı dostu bir web sitesidir.  
+Proje, hem ziyaretçiler için hazırlanmış bir **ana vitrin (frontend)** hem de içeriklerin yönetildiği bir **admin paneli** içermektedir.
 
-Currently, two official plugins are available:
+🔗 **Canlı Site:** https://nesflowers.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧠 Proje Hakkında
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Bu proje, örgü çiçeklerin görsellerini ve içeriklerini şık bir arayüz ile sunmayı amaçlar.  
+Admin paneli sayesinde site içerikleri kolayca yönetilebilir, güncellenebilir ve kontrol altında tutulur.
+
+---
+
+## 🖼️ Ekran Görüntüleri
+
+### 🌸 Ana Sayfa
+Kullanıcıların gördüğü vitrin ekranı. Çiçeklerin listelendiği ve tanıtıldığı ana arayüzdür.
+
+![Ana Sayfa Görseli](./screenshots/home.png)
+
+---
+
+### 🔐 Admin Paneli
+Site içeriklerinin yönetildiği yönetici ekranı.
+
+- Çiçek ekleme / silme / güncelleme  
+- İçerik kontrolü  
+- Site yönetimi  
+
+![Admin Paneli Görseli](./screenshots/admin.png)
+
+---
+
+## 🚀 Özellikler
+
+### 👤 Kullanıcı (Frontend)
+- Örgü çiçeklerin listelenmesi
+- Mobil uyumlu (responsive) tasarım
+- Modern ve sade arayüz
+
+### 🛠️ Admin Paneli
+- İçerik yönetimi
+- Çiçek ekleme / düzenleme / silme
+- Yönetici odaklı arayüz
+- Genişletilebilir yapı
+  
+---
+
+## 🧩 Kullanılan Teknolojiler
+
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+---
+
