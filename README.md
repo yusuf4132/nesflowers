@@ -19,7 +19,7 @@ Admin paneli sayesinde site içerikleri kolayca yönetilebilir, güncellenebilir
 ### 🌸 Ana Sayfa
 Kullanıcıların gördüğü vitrin ekranı. Çiçeklerin listelendiği ve tanıtıldığı ana arayüzdür.
 
-![Ana Sayfa Görseli](./screenshots/home.png)
+![Ana Sayfa Görseli](./src/assets/nesflowers.png)
 
 ---
 
